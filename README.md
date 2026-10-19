@@ -20,3 +20,11 @@ Stream/VOD audio separation is not working correctly.
 Some features are barebones or partially implemented. (specially Clean list and Sloppy Springs mode in Viewer Chat element)
 
 Ship it anyway.
+
+![SoundStage](SoundStage.png)
+
+![MediaDeck](MediaDeck.png)
+
+![StreamHub](StreamHub.png)
+
+![RightPanel](RightPanel.png)

@@ -7,7 +7,7 @@ Hibiki is a standalone native C++ application built to replace the pile of separ
 What it does
 Broadcasting — Stream and route audio without juggling extra software.
 Canvas Compositing — Real-time layer-based scene composition built into the core.
-Spatial Audio — HRTF-based 3D audio positioning for actual immersion.
+Spatial Audio — HRTF-based surround audio positioning for actual immersion.
 Shader Effects — GPU-accelerated visual effects that don’t tank your performance.
 Physics Interactions — Dynamic physics-driven elements because why not.
 Media Playback — Integrated media handling baked into the workflow.

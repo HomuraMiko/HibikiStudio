@@ -1,3 +1,5 @@
+[Download latest version](https://github.com/HomuraMiko/HibikiStudio/releases/tag/V0.7.X)
+
 Hibiki
 
 An all-in-one broadcasting and content creation platform.

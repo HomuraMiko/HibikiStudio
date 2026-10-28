@@ -133,7 +133,7 @@ All filters run in 32-bit floating-point precision through a shared Direct3D 11 
 
 Hibiki integrates the **Jolt Physics** engine directly into the canvas for 2D rigid, softbody, and particle simulations.
 
----
+```
 
                               [ Mouse / Hand ]
                                         │
@@ -148,8 +148,7 @@ Hibiki integrates the **Jolt Physics** engine directly into the canvas for 2D ri
    ├─ Pinch Pose             ├─ Touch Pose               ├─ Shatter    └─ Unpin Joint
    ├─ Lift-Pop Dynamics      └─ Draw Telestrator Ink     ├─ Add Pin Hinge
    └─ Inertial Throw / Yeet                              └─ Mod Actions
-
----
+```
 
 ### Hand Kinematics & Secondary Motion
 
@@ -208,8 +207,7 @@ Twitch alerts (Follows, Subs T1–T3, Gifted Subs, Bits 1–5000+, Raids) operat
 
 Hibiki features an embedded media request pipeline powered by an offscreen `QWebEngineView` and native C++ audio streaming:
 
----
-
+```
 [ Twitch Chat: !sr <query/link> ]
                │
                ▼
@@ -234,8 +232,7 @@ Hibiki features an embedded media request pipeline powered by an offscreen `QWeb
                │
                ▼
 [ AudioEngine: Bus 2 (StreamReq) ] (Dedicated EQ, Gate, Ducking, Reverb)
-
----
+```
 
 * **No Speaker Leakage**: DOM audio output is clamped to zero gain; audio is extracted via `createMediaElementSource` and piped through an internal WebSocket bridge (`AudioWebSocketBridge`) directly into a lock-free jitter buffer read by `AudioEngine`.
 * **Automated Threat Assessment**: Scans titles and channels against blacklists and high-risk keywords (earrape, screamer, 130dB) while skipping verified whitelisted partners.

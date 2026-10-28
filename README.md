@@ -23,6 +23,8 @@ Some features are barebones or partially implemented. (specially Clean list and 
 
 Ship it anyway.
 
+![example1](example.png)
+
 ![SoundStage](SoundStage.png)
 
 ![MediaDeck](MediaDeck.png)

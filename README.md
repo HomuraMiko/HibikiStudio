@@ -1,6 +1,7 @@
 [HibikiStudio Discord](https://discord.gg/Jxj3nQwKj)
 
 [Download latest version](https://github.com/HomuraMiko/HibikiStudio/releases/tag/V0.7.X)
+
 A standalone, hardware-accelerated broadcasting and interactive content creation workstation for Windows.
 
 Hibiki replaces the usual mess of browser sources, virtual audio cables, chat overlays, media players, and bots with a single native application. Everything a live stream needs — compositing, audio routing, chat, alerts, media requests — runs in one place, natively.

@@ -1,4 +1,4 @@
-![hibiki](hibikilogicon.png)
+![hibiki](/images/hibikilogicon.png)
 
 [HibikiStudio Discord](https://discord.gg/Jxj3nQwKj)
 

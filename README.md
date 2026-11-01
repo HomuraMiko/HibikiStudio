@@ -56,7 +56,7 @@ Six independent audio buses covering microphone, media player, song requests, ba
 
 ### In-Game HUD Overlay
 
-A transparent overlay that sits over full-screen games. Shows broadcast health, live viewer stats, and a floating chat box with animated emotes. A hotkey lets you interact with physics objects directly over your game without alt-tabbing.
+A transparent overlay that sits over borderless full-screen games and apps (no EXCLUSIVE full screen mode compatibility). Shows broadcast health, live viewer stats, and a floating chat box with animated emotes. A hotkey lets you interact with physics objects directly over your game without alt-tabbing.
 
 ### MediaDeck
 

@@ -2,7 +2,7 @@
 
 [HibikiStudio Discord](https://discord.gg/Jxj3nQwKj)
 
-[Download latest version](https://github.com/HomuraMiko/HibikiStudio/releases/tag/V0.7.X)
+[Download latest version](https://github.com/HomuraMiko/HibikiStudio/releases/tag/v0.7.7alpha2)
 
 # Hibiki (v0.7.7 Alpha)
 

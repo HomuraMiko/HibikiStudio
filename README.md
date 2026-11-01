@@ -4,7 +4,7 @@
 
 [Download latest version](https://github.com/HomuraMiko/HibikiStudio/releases/tag/V0.7.X)
 
-# Hibiki (v0.7.6 Alpha)
+# Hibiki (v0.7.7 Alpha)
 
 **A standalone, hardware-accelerated broadcasting and interactive content creation workstation for Windows.**
 

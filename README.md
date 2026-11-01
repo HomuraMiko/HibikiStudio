@@ -14,15 +14,15 @@ Hibiki replaces the usual mess of browser sources, virtual audio cables, chat ov
 
 ***Background image under the software is my Wallpaper and NOT a hardcoded asset in the application visuals.***
 
-![example1](example.png)
+![example1](/images/example.png)
 
-![SoundStage](SoundStage.png)
+![SoundStage](/images/SoundStage.png)
 
-![MediaDeck](MediaDeck.png)
+![MediaDeck](/images/MediaDeck.png)
 
-![StreamHub](StreamHub.png)
+![StreamHub](/images/StreamHub.png)
 
-![RightPanel](RightPanel.png)
+![RightPanel](/images/RightPanel.png)
 
 
 

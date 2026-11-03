@@ -1,18 +1,20 @@
 ![hibiki](/images/hibiki-header.png)
 
-[HibikiStudio Discord](https://discord.gg/Jxj3nQwKj)
+[HibikiStudio Discord](https://discord.gg/Jxj3nQwKj) | [Download Latest Version](https://github.com/HomuraMiko/HibikiStudio/releases/latest)
 
-[Download latest version](https://github.com/HomuraMiko/HibikiStudio/releases/tag/v0.7.7alpha2)
+# Hibiki Studio
 
-# Hibiki (v0.7.7 Alpha)
+**A standalone, hardware-accelerated Audio Visual Streaming Engine for Windows.**
 
-**A standalone, hardware-accelerated broadcasting and interactive content creation workstation for Windows.**
+Hibiki brings broadcasting, audio processing, visual effects, physics, and audience interaction together in one native application.
 
-Hibiki replaces the usual mess of browser sources, virtual audio cables, chat overlays, media players, and bots with a single native application. Everything a live stream needs — compositing, audio routing, chat, alerts, media requests — runs in one place, natively.
+Create scenes, customize your canvas, process audio, interact with your audience, and build unique streaming experiences without relying on a pile of external tools.
+
+Whether you want a simple streaming setup or an interactive audiovisual playground, Hibiki gives you the tools to build it your way.
 
 ---
 
-***Background image under the software is my Wallpaper and NOT a hardcoded asset in the application visuals.***
+***The background image displayed behind the software is my personal wallpaper and NOT a hardcoded application asset.***
 
 ![example1](/images/example.png)
 
@@ -24,65 +26,40 @@ Hibiki replaces the usual mess of browser sources, virtual audio cables, chat ov
 
 ![RightPanel](/images/RightPanel.png)
 
-
-
 ---
 
 ## Features
 
-### Canvas & Scene Compositing
-
-Build scenes from window captures, images, text, media players, chat, color fills, and Spout2 VTuber avatar feeds. Drag sources around a live canvas, resize, layer, and switch between scenes with hardware-accelerated transitions — cut, fade, slide, luma wipe, glitch tear, and a glass-shatter physics transition.
-
-### Physics Sandbox
-
-Chat bubbles, media items, and props can fall, collide, stack, and break. Objects can be grabbed and thrown with the mouse, pinned in place with hinge joints, or shattered into fragments. Bass hits from audio can kick the floor and launch everything into the air.
-
-### GPU Shader Effects (28+)
-
-A full post-processing pipeline that runs per-source or per-scene. Includes chroma keying (standard and perceptual quality modes), color correction, luma key, audio-reactive scale/shake/bloom/glow, CRT and VHS analog degradation, VHS tape emulation, datamosh glitch, halftone, pixelate, lens distortion, heat haze, animated rain on glass, frosted acrylic glass, normal map refraction, comic outline, night vision, retro pixel upscalers (Scale2x, xBR, 2xSaI), blur suite, drop shadow, sepia, and more.
-
-### Viewer Chat & Alerts
-
-Connects directly to Twitch chat. Messages can display as a clean scrolling list, an organic sticker-collage layout, or drop as physical objects into the physics arena. Supports animated Twitch and 7TV emotes natively. Alerts for follows, subs, bits, and raids have a two-phase behavior — a spotlight hold, then a physics drop into the arena with impact effects.
-
-### Automated Song Requests
-
-Viewers request YouTube tracks via chat command. Hibiki handles playback internally, routing audio through the mixer with no speaker bleed. Includes a threat filter that screens requests against blacklists and keywords before they play.
-
-### Multi-Bus Audio Engine
-
-Six independent audio buses covering microphone, media player, song requests, background music, application capture, and peripherals. Each bus has its own DSP chain: EQ, compressor, expander, noise gate, limiter, pitch/formant shifter, reverb, noise suppression, and more. Auto-ducking, binaural positioning, and per-bus room reverb are also available.
-
-### In-Game HUD Overlay
-
-A transparent overlay that sits over borderless full-screen games and apps (no EXCLUSIVE full screen mode compatibility). Shows broadcast health, live viewer stats, and a floating chat box with animated emotes. A hotkey lets you interact with physics objects directly over your game without alt-tabbing.
-
-### MediaDeck
-
-Built-in audio player with playlist management, tag-based metadata, auto-ducking when the mic is active, and smooth crossfading between tracks.
-
-### Broadcasting
-
-Hardware-accelerated H.264 encoding via NVIDIA NVENC. Streams directly to Twitch over RTMP. Local recording to FLV. Twitch title, category, tags, and content labels can be updated from inside the app.
+- **Canvas & Scenes** - Build custom layouts using images, text, captures, media, and Spout2 sources.
+- **Visual Effects** - GPU-accelerated shaders, filters, transitions, and audio-reactive effects.
+- **Physics Sandbox** - Bring your canvas to life with interactive objects, collisions, and audio-reactive physics.
+- **Logic & Node Graph** - Create custom automations using events, conditions, and actions.
+- **Twitch Integration** - Chat, animated emotes, alerts, and interactive viewer experiences.
+- **Audio Engine** - Multiple independent audio buses with built-in DSP processing and spatial audio.
+- **MediaDeck** - Integrated media playback, playlists, metadata, and audio management.
+- **Soundstage** - Three-dimensional audio positioning and VMC tracking integration.
+- **StreamHub** - Integrated streaming and local recording with hardware-accelerated encoding.
+- **Hibiki API** - Connect external tools and integrations to Hibiki.
 
 ---
 
-## Current Limitations
+## Compatibility
 
-- **NVIDIA GPUs only** for hardware video encoding (GTX 600 or newer). AMD and Intel support is in progress.
-- Dual-track stream/VOD audio separation is partially implemented and may have routing issues.
-- VMC head tracking is present but has known calculation issues; a full overhaul is planned.
+- Windows 10 / Windows 11 (64-bit).
+- NVIDIA, AMD, and Intel hardware encoding support.
+- Dedicated GPU recommended.
+- Spout2 output available for external broadcasting workflows.
 
 ---
 
-## Roadmap
+## Links
 
-- AMD AMF & Intel QuickSync encoding support
-- CPU x264/x265 fallback encoding
-- YouTube Live streaming
-- VMC 6-DoF tracking overhaul
-- Custom HLSL shader import
-- Standalone audio visualizers
-- Local chat rewards, channel points, and item shop system
-- Custom chat bubble shapes, themes, and animations
+- [Discord Community](https://discord.gg/Jxj3nQwKj)
+- [GitHub Repository](https://github.com/HomuraMiko/HibikiStudio)
+- [Latest Releases](https://github.com/HomuraMiko/HibikiStudio/releases/latest)
+
+---
+
+*Hibiki Studio • Copyright © 2026 HomuraMiko™ All Rights Reserved.*
+
+*Where the sound meets the eye...*

@@ -32,8 +32,9 @@ Whether you want a simple streaming setup or an interactive audiovisual playgrou
 
 - **Canvas & Scenes** - Build custom layouts using images, text, captures, media, and Spout2 sources.
 - **Visual Effects** - GPU-accelerated shaders, filters, transitions, and audio-reactive effects.
+- **Sourcerer** - Built-in motion graphics and animation studio. Create animated alerts, stingers, lower-thirds, and interactive scene elements using multi-track timelines, keyframes, easing curves, Bezier motion paths, and audio-synchronized cues. Includes per-layer GPU effects, live viewport editing, reusable presets, dynamic text and Twitch integration, with dedicated Node Graphs for custom interactive behavior.
 - **Physics Sandbox** - Bring your canvas to life with interactive objects, collisions, and audio-reactive physics.
-- **Logic & Node Graph** - Create custom automations using events, conditions, and actions.
+- **Logic & Node Graph** - Create custom automations using events, conditions, values, and actions, with Twitch integration and Sourcerer controls.
 - **Twitch Integration** - Chat, animated emotes, alerts, and interactive viewer experiences.
 - **Audio Engine** - Multiple independent audio buses with built-in DSP processing and spatial audio.
 - **MediaDeck** - Integrated media playback, playlists, metadata, and audio management.
